@@ -1054,4 +1054,9 @@ body::before {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
   }
+  /* Disable Add to Cart & Wishlist buttons */
+.product-actions,
+.modal-actions {
+  display: none !important;
+}
 }
