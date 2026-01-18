@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Bluetooth Headphones",
+    "owner": "TechSound Inc.",
+    "price": 89.99,
+    "image": "https://plus.unsplash.com/premium_photo-1679513691485-711d030f7e94?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8V2lyZWxlc3MlMjBCbHVldG9vdGglMjBIZWFkcGhvbmVzfGVufDB8fDB8fHww",
+    "category": "Electronics",
+    "description": "Premium wireless headphones with noise cancellation and 30-hour battery life.",
+    "rating": 4.8,
+    "reviews": 1247
+  },
+  {
+    "id": 2,
+    "name": "Organic Cotton T-Shirt",
+    "owner": "EcoWear Co.",
+    "price": 24.99,
+    "image": "https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fE9yZ2FuaWMlMjBDb3R0b24lMjBUJTIwU2hpcnR8ZW58MHx8MHx8fDA%3D",
+    "category": "Clothing",
+    "description": "Comfortable organic cotton t-shirt available in multiple colors and sizes.",
+    "rating": 4.6,
+    "reviews": 892
+  },
+  {
+    "id": 3,
+    "name": "Smart Fitness Watch",
+    "owner": "FitTech Solutions",
+    "price": 199.99,
+    "image": "https://images.unsplash.com/photo-1585595666499-400018927746?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFNtYXJ0JTIwRml0bmVzcyUyMFdhdGNofGVufDB8fDB8fHww",
+    "category": "Electronics",
+    "description": "Advanced fitness tracking with heart rate monitor and GPS functionality.",
+    "rating": 4.9,
+    "reviews": 2156
+  },
+  {
+    "id": 4,
+    "name": "Artisan Coffee Beans",
+    "owner": "Mountain Roasters",
+    "price": 18.5,
+    "image": "https://plus.unsplash.com/premium_photo-1669687924853-7fad4dd6cf63?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fEFydGlzYW4lMjBDb2ZmZWUlMjBCZWFuc3xlbnwwfHwwfHx8MA%3D%3D",
+    "category": "Food",
+    "description": "Single-origin coffee beans roasted to perfection with rich, complex flavors.",
+    "rating": 4.7,
+    "reviews": 634
+  },
+  {
+    "id": 5,
+    "name": "Minimalist Desk Lamp",
+    "owner": "Modern Living",
+    "price": 45.0,
+    "image": "https://images.unsplash.com/photo-1520341043296-d818239f86f2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TWluaW1hbGlzdCUyMERlc2slMjBMYW1wfGVufDB8fDB8fHww",
+    "category": "Home",
+    "description": "Sleek LED desk lamp with adjustable brightness and USB charging port.",
+    "rating": 4.5,
+    "reviews": 423
+  },
+  {
+    "id": 6,
+    "name": "Yoga Mat Premium",
+    "owner": "ZenFit Equipment",
+    "price": 32.99,
+    "image": "https://images.unsplash.com/photo-1646239646963-b0b9be56d6b5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fFlvZ2ElMjBNYXQlMjBQcmVtaXVtfGVufDB8fDB8fHww",
+    "category": "Sports",
+    "description": "Non-slip yoga mat with superior grip and cushioning for all practice levels.",
+    "rating": 4.8,
+    "reviews": 756
+  },
+  {
+    "id": 7,
+    "name": "Stainless Steel Water Bottle",
+    "owner": "HydroLife",
+    "price": 22.95,
+    "image": "https://plus.unsplash.com/premium_photo-1681284938505-62efa3494bf2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8U3RhaW5sZXNzJTIwU3RlZWwlMjBXYXRlciUyMEJvdHRsZXxlbnwwfHwwfHx8MA%3D%3D",
+    "category": "Sports",
+    "description": "Insulated water bottle that keeps drinks cold for 24 hours or hot for 12 hours.",
+    "rating": 4.6,
+    "reviews": 1089
+  },
+  {
+    "id": 8,
+    "name": "Wireless Phone Charger",
+    "owner": "PowerTech",
+    "price": 35.99,
+    "image": "https://images.unsplash.com/photo-1617975316514-69cd7e16c2a4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFdpcmVsZXNzJTIwUGhvbmUlMjBDaGFyZ2VyfGVufDB8fDB8fHww",
+    "category": "Electronics",
+    "description": "Fast wireless charging pad compatible with all Qi-enabled devices.",
+    "rating": 4.4,
+    "reviews": 567
+  },
+  {
+    "id": 9,
+    "name": "Leather Crossbody Bag",
+    "owner": "Artisan Leather Co.",
+    "price": 78.0,
+    "image": "https://images.unsplash.com/photo-1718622795525-2295971921ba?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8TGVhdGhlciUyMENyb3NzYm9keSUyMEJhZ3xlbnwwfHwwfHx8MA%3D%3D",
+    "category": "Fashion",
+    "description": "Handcrafted genuine leather bag with adjustable strap and multiple compartments.",
+    "rating": 4.9,
+    "reviews": 345
+  },
+  {
+    "id": 10,
+    "name": "Indoor Plant Collection",
+    "owner": "Green Thumb Nursery",
+    "price": 42.5,
+    "image": "https://images.unsplash.com/photo-1654609678730-d241a2b2eb8d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8SW5kb29yJTIwUGxhbnQlMjBDb2xsZWN0aW9ufGVufDB8fDB8fHww",
+    "category": "Home",
+    "description": "Set of three low-maintenance indoor plants perfect for beginners.",
+    "rating": 4.7,
+    "reviews": 289
+  },
+  {
+    "id": 11,
+    "name": "Bluetooth Speaker",
+    "owner": "SoundWave Audio",
+    "price": 65.99,
+    "image": "https://images.unsplash.com/photo-1589256469067-ea99122bbdc4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Qmx1ZXRvb3RoJTIwU3BlYWtlcnxlbnwwfHwwfHx8MA%3D%3D",
+    "category": "Electronics",
+    "description": "Portable Bluetooth speaker with 360-degree sound and waterproof design.",
+    "rating": 4.8,
+    "reviews": 923
+  },
+  {
+    "id": 12,
+    "name": "Gourmet Chocolate Box",
+    "owner": "Sweet Delights",
+    "price": 28.75,
+    "image": "https://images.unsplash.com/photo-1573013835014-60d1590bfa38?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8R291cm1ldCUyMENob2NvbGF0ZSUyMEJveHxlbnwwfHwwfHx8MA%3D%3D",
+    "category": "Food",
+    "description": "Assorted premium chocolates made with finest Belgian cocoa and natural ingredients.",
+    "rating": 4.9,
+    "reviews": 412
+  }
+]
