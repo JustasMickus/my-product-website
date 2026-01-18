@@ -563,12 +563,11 @@ body::before {
 }
 
 .product-rating {
-  display: flex;
-  align-items: center;
-  gap: var(--space-sm);
-  margin-bottom: var(--space-lg);
-  color: rgba(255, 255, 255, 0.9);
-  font-size: 0.9rem;
+  /* Disable product rating stars and reviews */
+.product-rating {
+  display: none !important;
+}
+
 }
 
 .product-rating .stars {
