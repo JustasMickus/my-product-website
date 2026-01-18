@@ -240,47 +240,23 @@ class ProductListing {
     }, 500); // Simulate loading time
   }
 
-  createProductCard(product, index) {
-    const card = document.createElement("div");
-    card.className = "product-card";
-    card.style.animationDelay = `${index * 100}ms`;
+createProductCard(product, index) {
+  const card = document.createElement("div");
+  card.className = "product-card";
+  card.style.animationDelay = `${index * 100}ms`;
 
-    // Generate star rating
-    const stars =
-      "★".repeat(Math.floor(product.rating)) +
-      "☆".repeat(5 - Math.floor(product.rating));
+  card.innerHTML = `
+    <img src="${product.image}" alt="${product.name}" class="product-image" loading="lazy">
+    <div class="product-info">
+        <h3 class="product-title">${product.name}</h3>
+        <p class="product-owner">by ${product.owner}</p>
+        <p class="product-price">$${product.price.toFixed(2)}</p>
+    </div>
+  `;
 
-    card.innerHTML = `
-            <img src="${product.image}" alt="${
-      product.name
-    }" class="product-image" loading="lazy">
-            <div class="product-info">
-                <h3 class="product-title">${product.name}</h3>
-                <p class="product-owner">by ${product.owner}</p>
-                <div class="product-rating">
-                    <span class="stars">${stars}</span>
-                    <span>${product.rating} (${product.reviews} reviews)</span>
-                </div>
-                <p class="product-price">$${product.price.toFixed(2)}</p>
-                <div class="product-actions">
-                    <button class="btn btn-primary" onclick="event.stopPropagation(); app.addToCart(${
-                      product.id
-                    })">
-                        <i class="fas fa-shopping-cart"></i>
-                        Add to Cart
-                    </button>
-                    <button class="btn btn-secondary" onclick="event.stopPropagation(); app.addToWishlist(${
-                      product.id
-                    })">
-                        <i class="fas fa-heart"></i>
-                        Wishlist
-                    </button>
-                </div>
-            </div>
-        `;
+  return card;
+}
 
-    return card;
-  }
 
   showProductModal(product) {
     const modal = document.getElementById("product-modal");
