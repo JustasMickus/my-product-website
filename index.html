@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Listing - Modern Store</title>
+    <link rel="stylesheet" href="modern-styles.css" />
+    <link rel="stylesheet" href="animations.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="header">
+      <div class="container">
+        <h1 class="logo">
+          <a href="#"> <i class="fas fa-store"></i></a>
+          Modern Store
+        </h1>
+        <nav class="nav">
+          <a href="#" class="nav-link">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+      <div class="container">
+        <!-- Filter Section -->
+        <section class="filters">
+          <h2 class="filters-title">Filter Products</h2>
+          <div class="filter-controls">
+            <div class="filter-group">
+              <label for="search" class="filter-label">Search:</label>
+              <input
+                type="text"
+                id="search"
+                class="filter-input"
+                placeholder="Search products..."
+              />
+            </div>
+            <div class="filter-group">
+              <label for="owner-filter" class="filter-label">Owner:</label>
+              <select id="owner-filter" class="filter-select">
+                <option value="">All Owners</option>
+              </select>
+            </div>
+            <div class="filter-group">
+              <label for="price-filter" class="filter-label"
+                >Price Range:</label
+              >
+              <select id="price-filter" class="filter-select">
+                <option value="">All Prices</option>
+                <option value="0-25">$0 - $25</option>
+                <option value="25-50">$25 - $50</option>
+                <option value="50-100">$50 - $100</option>
+                <option value="100+">$100+</option>
+              </select>
+            </div>
+            <button id="clear-filters" class="btn btn-secondary">
+              <i class="fas fa-times"></i>
+              Clear Filters
+            </button>
+          </div>
+        </section>
+
+        <!-- Product Navigation -->
+        <section class="product-navigation">
+          <div class="nav-controls">
+            <button id="prev-product" class="nav-btn" disabled>
+              <i class="fas fa-chevron-left"></i>
+              Previous
+            </button>
+            <span class="product-counter">
+              Product <span id="current-product">1</span> of
+              <span id="total-products">0</span>
+            </span>
+            <button id="next-product" class="nav-btn">
+              Next
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+          <div class="view-toggle">
+            <button id="grid-view" class="view-btn active">
+              <i class="fas fa-th"></i>
+              Grid
+            </button>
+            <button id="list-view" class="view-btn">
+              <i class="fas fa-list"></i>
+              List
+            </button>
+          </div>
+        </section>
+
+        <!-- Products Section -->
+        <section class="products">
+          <div id="products-container" class="products-grid">
+            <!-- Products will be dynamically loaded here -->
+          </div>
+
+          <!-- Loading State -->
+          <div id="loading" class="loading hidden">
+            <i class="fas fa-spinner fa-spin"></i>
+            <p>Loading products...</p>
+          </div>
+
+          <!-- No Products State -->
+          <div id="no-products" class="no-products hidden">
+            <i class="fas fa-search"></i>
+            <h3>No products found</h3>
+            <p>Try adjusting your filters or search terms.</p>
+          </div>
+        </section>
+
+        <!-- Pagination -->
+        <section class="pagination">
+          <button id="first-page" class="page-btn">
+            <i class="fas fa-angle-double-left"></i>
+          </button>
+          <button id="prev-page" class="page-btn">
+            <i class="fas fa-angle-left"></i>
+          </button>
+          <div id="page-numbers" class="page-numbers" style="display: flex">
+            <!-- Page numbers will be dynamically generated -->
+          </div>
+          <button id="next-page" class="page-btn">
+            <i class="fas fa-angle-right"></i>
+          </button>
+          <button id="last-page" class="page-btn">
+            <i class="fas fa-angle-double-right"></i>
+          </button>
+        </section>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 Modern Store. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Product Modal -->
+    <div id="product-modal" class="modal hidden">
+      <div class="modal-content">
+        <button class="modal-close">
+          <i class="fas fa-times"></i>
+        </button>
+        <div class="modal-body">
+          <img id="modal-image" src="" alt="" class="modal-image" />
+          <div class="modal-info">
+            <h3 id="modal-title" class="modal-title"></h3>
+            <p id="modal-owner" class="modal-owner"></p>
+            <p id="modal-price" class="modal-price"></p>
+            <div class="modal-actions">
+              <button class="btn btn-primary">
+                <i class="fas fa-shopping-cart"></i>
+                Add to Cart
+              </button>
+              <button class="btn btn-secondary">
+                <i class="fas fa-heart"></i>
+                Add to Wishlist
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button id="scroll-to-top" class="scroll-to-top hidden">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
